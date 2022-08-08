@@ -13,13 +13,16 @@
 //plugins是KotlinBuildScript.kt类中的函数
 plugins {
     // Apply the java plugin to add support for Java
-    java
+//    java
+    id("org.gradle.java")
 
     // Apply the kotlin plugin to add support for kotlin
-    kotlin("jvm") version "1.4.31"
+//    kotlin("jvm") version "1.4.31"
+    id("org.jetbrains.kotlin.jvm") version "1.4.31"
 
     // Apply the application plugin to add support for building a CLI application.
-    application
+//    application
+    id("org.gradle.application")
 }
 
 sourceSets {
