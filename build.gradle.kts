@@ -10,6 +10,7 @@
  *
  */
 
+//plugins是KotlinBuildScript.kt类中的函数
 plugins {
     // Apply the java plugin to add support for Java
     java
